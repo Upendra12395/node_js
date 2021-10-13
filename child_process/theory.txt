@@ -12,6 +12,9 @@ child process :
             inside a, well, child process.
             We can control that child process input stream, and listen to its output stream. We can also control the 
             arguments to be passed to the underlying OS command, and we can do whatever we want with that command’s output.
+            
+            Child processes always have three streams child.stdin, child.stdout, and child.stderr which may be shared with 
+            the stdio streams of the parent process
 
 The following are the four different ways to create a child process in Node.js:
 
