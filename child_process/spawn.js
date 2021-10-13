@@ -1,5 +1,4 @@
 const {spawn} = require('child_process')
-const { stdout } = require('process')
 
 const child = spawn('ls', ['-lh'])
 
